@@ -4,7 +4,7 @@ import { isAuthencated } from '../Middlewares/Auth.js'
 
 const router = express.Router()
 // Middleware token yehi check karega
-router.use(isAuthencated)
+// router.use(isAuthencated)
 
 // Create user from route se 
 router.post('/staff', staffUser)

@@ -51,7 +51,7 @@ export const userLogin = async (req, res) => {
       email: user.email,
     },
     process.env.JWT_CODE,
-    { expiresIn: "1d" }
+    { expiresIn: "4d" }
   );
   try {
     return res.json({message:`Welcome ${user.name}`,token,success:true})

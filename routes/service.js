@@ -10,7 +10,7 @@ import { isAuthencated } from "../Middlewares/Auth.js";
 
 const router = express.Router();
 // Middleware token yehi chalega
-router.use(isAuthencated);
+// router.use(isAuthencated);
 
 router.post("/service", createService);
 // Get all service

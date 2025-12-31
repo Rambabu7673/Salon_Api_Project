@@ -10,7 +10,7 @@ import {
 const router = express.Router();
 
 // Midleware token yehi se check karega
-router.use(isAuthencated)
+// router.use(isAuthencated)
 // create Booking api
 router.post("/booking", userBooking);
 // get all booking data
