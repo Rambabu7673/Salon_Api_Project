@@ -2,6 +2,7 @@
   "name": "02_booking-api",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "dependencies": {
     "accepts": "^2.0.0",
     "bcryptjs": "^3.0.3",
